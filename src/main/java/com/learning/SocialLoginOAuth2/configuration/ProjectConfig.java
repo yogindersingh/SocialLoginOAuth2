@@ -28,7 +28,7 @@ public class ProjectConfig {
   }
 
   private ClientRegistration githubClientRegistration() {
-    return CommonOAuth2Provider.GITHUB.getBuilder("github").clientId("Ov23liaTteCYtwt1EpEJ")
-        .clientSecret("315bb4803c091b85dba242cc3b32637c53dace84").build();
+    return CommonOAuth2Provider.GITHUB.getBuilder("github").clientId("")
+        .clientSecret("").build();
   }
 }
